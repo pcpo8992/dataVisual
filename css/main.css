@@ -1,0 +1,30 @@
+*{
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body{
+  background-color:rgb(234, 239, 248);
+}
+
+.navbar{
+  background-color: #563D7B !important;
+  color: white !important;
+}
+
+.navbar .a:hover{
+  color: #ffffff;
+}
+.card{
+  box-shadow: 5px 5px 1px #ddd;
+  position: relative;
+}
+.card:hover{
+    transform: translate(-5px, -5px);
+    transition: 0.4s;
+    box-shadow: 8px 8px 3px #cccccc;
+}
+.card .card-header{
+    background-color: rgb(87, 128, 151);
+    color:#ffffff;
+}
+
