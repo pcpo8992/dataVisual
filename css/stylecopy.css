@@ -7,9 +7,30 @@
     height: 100%;
 }
 
+.navbar-brand{
+    color: #ffffff;
+    margin-left: 80px !important;
+}
+
+.navbar-brand:hover{
+    color: #a19e9e !important;
+}
+
 .container-fulid .size2{
     width: 50%;
     height: 100%;
+}
+
+ul.justify-content-end{
+    margin-right: 200px !important;
+}
+
+ul.justify-content-end a{
+    color: #ffffff !important;
+}
+
+ul.justify-content-end a:hover{
+    color: #a19e9e !important;
 }
 
 .size2 img{
@@ -19,6 +40,10 @@
 @media (max-width: 1200px) {
     .size2 img {
         display: none;
+    }
+    .navbar-brand{
+        color: #ffffff;
+        margin-left: 0px !important;
     }
 }
 
