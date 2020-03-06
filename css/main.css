@@ -2,12 +2,13 @@
   font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
 body{
   background-color:rgb(234, 239, 248);
 }
 
 .navbar{
-  background-color: #563D7B !important;
+  /* background-color: #563D7B !important; */
   color: white !important;
 }
 
@@ -15,19 +16,47 @@ body{
   color: #ffffff;
 }
 .card{
-  box-shadow: 5px 5px 1px #ddd;
-  position: relative;
+  /* box-shadow: 5px 5px 1px #ddd; */
+  /* position: relative; */
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
 }
 .card:hover{
-    transform: translate(-5px, -5px);
-    transition: 0.4s;
-    box-shadow: 8px 8px 3px #cccccc;
+    /* transform: translate(-5px, -5px); */
+    transform:scale(1.1,1.1);
+    z-index: 100;
+    transition: 0.3s;
+    /* box-shadow: 8px 8px 3px #cccccc; */
 }
 .card .card-header{
     background-color: rgb(87, 128, 151);
     color:#ffffff;
 }
+.card a:hover{
+  text-decoration: none;
+}
+
+
+.card a:hover .card-text{
+  text-decoration: none;
+  color:black !important;
+}
+
+.card-text{
+  text-decoration: none;
+  color:black !important;
+}
 
 #toolbar-container{
   display: none !important;
+}
+
+.top{
+  z-index: 100;
+  position: relative;
+  width: 1440px; 
+  height:27px;
+  background-color:white;
+  margin-top:-27px;
 }
